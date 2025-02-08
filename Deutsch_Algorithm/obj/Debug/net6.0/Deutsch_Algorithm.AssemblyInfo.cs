@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Deutsch_Algorithm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6adf8170a50cf861aae0bac0ecc20cc69b97263d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e495e1619a28f3b363f5ce1ed9846ad5d0386eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Deutsch_Algorithm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Deutsch_Algorithm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
