@@ -2,6 +2,7 @@
     "C:\Users\kavir\quantum\quantum"
 --build-exe
 --input
+    "C:\Users\kavir\quantum\Deutsch_Algorithm\Program.qs"
     "C:\Users\kavir\quantum\Program.qs"
 --output
     "C:/Users/kavir/quantum/obj/qsharp/"

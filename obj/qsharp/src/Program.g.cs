@@ -14,22 +14,200 @@ using Microsoft.Quantum.Intrinsic;
 using Microsoft.Quantum.Intrinsic.Interfaces;
 using Microsoft.Quantum.Simulation.Core;
 
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"quantum\",\"Name\":\"GenerateRandomBit\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\kavir\\\\quantum\\\\Program.qs\",\"Position\":{\"Item1\":7,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Result\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"quantum\",\"Name\":\"GenerateRandomBit\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\kavir\\\\quantum\\\\Program.qs\",\"Position\":{\"Item1\":7,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"quantum\",\"Name\":\"HelloQ\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"TypeIdRange\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":25,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\kavir\\\\quantum\\\\Program.qs\",\"Position\":{\"Item1\":26,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":17}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"quantum\",\"Name\":\"HelloQ\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\kavir\\\\quantum\\\\Program.qs\",\"Position\":{\"Item1\":26,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":17}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Deutsch_Algorithm\",\"Name\":\"DeutschOracle\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\kavir\\\\quantum\\\\Deutsch_Algorithm\\\\Program.qs\",\"Position\":{\"Item1\":7,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"fType\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":25},\"Item2\":{\"Line\":1,\"Column\":30}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"x\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":38},\"Item2\":{\"Line\":1,\"Column\":39}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"y\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":49},\"Item2\":{\"Line\":1,\"Column\":50}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Deutsch_Algorithm\",\"Name\":\"DeutschOracle\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\kavir\\\\quantum\\\\Deutsch_Algorithm\\\\Program.qs\",\"Position\":{\"Item1\":7,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Deutsch_Algorithm\",\"Name\":\"DeutschOracle\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\kavir\\\\quantum\\\\Deutsch_Algorithm\\\\Program.qs\",\"Position\":{\"Item1\":7,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":70},\"Item2\":{\"Line\":1,\"Column\":79}},\"Documentation\":[\"automatically generated QsAdjoint specialization for Deutsch_Algorithm.DeutschOracle\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Deutsch_Algorithm\",\"Name\":\"DeutschOracle\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\kavir\\\\quantum\\\\Deutsch_Algorithm\\\\Program.qs\",\"Position\":{\"Item1\":7,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":70},\"Item2\":{\"Line\":1,\"Column\":79}},\"Documentation\":[\"automatically generated QsControlled specialization for Deutsch_Algorithm.DeutschOracle\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Deutsch_Algorithm\",\"Name\":\"DeutschOracle\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\kavir\\\\quantum\\\\Deutsch_Algorithm\\\\Program.qs\",\"Position\":{\"Item1\":7,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":70},\"Item2\":{\"Line\":1,\"Column\":79}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for Deutsch_Algorithm.DeutschOracle\"]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Deutsch_Algorithm\",\"Name\":\"RunDeutschAlgorithm\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"TypeIdRange\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":26,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\kavir\\\\quantum\\\\Deutsch_Algorithm\\\\Program.qs\",\"Position\":{\"Item1\":27,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":30}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Deutsch_Algorithm\",\"Name\":\"RunDeutschAlgorithm\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\kavir\\\\quantum\\\\Deutsch_Algorithm\\\\Program.qs\",\"Position\":{\"Item1\":27,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":30}},\"Documentation\":[]}")]
 #line hidden
-namespace quantum
+namespace Deutsch_Algorithm
 {
-    [SourceLocation("C:\\Users\\kavir\\quantum\\Program.qs", OperationFunctor.Body, 8, 27)]
-    public partial class GenerateRandomBit : Operation<QVoid, Result>, ICallable
+    [SourceLocation("C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs", OperationFunctor.Body, 8, 28)]
+    [SourceLocation("C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs", OperationFunctor.Adjoint, 8, 28)]
+    [SourceLocation("C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs", OperationFunctor.Controlled, 8, 28)]
+    [SourceLocation("C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs", OperationFunctor.ControlledAdjoint, 8, 28)]
+    public partial class DeutschOracle : Unitary<(Int64,Qubit,Qubit)>, ICallable
     {
-        public GenerateRandomBit(IOperationFactory m) : base(m)
+        public DeutschOracle(IOperationFactory m) : base(m)
         {
         }
 
-        String ICallable.Name => "GenerateRandomBit";
-        String ICallable.FullName => "quantum.GenerateRandomBit";
+        public class In : QTuple<(Int64,Qubit,Qubit)>, IApplyData
+        {
+            public In((Int64,Qubit,Qubit) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits
+            {
+                get
+                {
+                    yield return Data.Item2;
+                    yield return Data.Item3;
+                }
+            }
+        }
+
+        String ICallable.Name => "DeutschOracle";
+        String ICallable.FullName => "Deutsch_Algorithm.DeutschOracle";
+        protected IUnitary<Qubit> Microsoft__Quantum__Intrinsic__X
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<(Qubit,Qubit)> Microsoft__Quantum__Intrinsic__CNOT
+        {
+            get;
+            set;
+        }
+
+        public override Func<(Int64,Qubit,Qubit), QVoid> __Body__ => (__in__) =>
+        {
+            var (fType,x,y) = __in__;
+#line 9 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+            if ((fType == 0L))
+            {
+            }
+            else if ((fType == 1L))
+            {
+#line 14 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                Microsoft__Quantum__Intrinsic__X.Apply(y);
+            }
+            else if ((fType == 2L))
+            {
+#line 18 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                Microsoft__Quantum__Intrinsic__CNOT.Apply((x, y));
+            }
+            else if ((fType == 3L))
+            {
+#line 22 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                Microsoft__Quantum__Intrinsic__CNOT.Apply((x, y));
+#line 23 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                Microsoft__Quantum__Intrinsic__X.Apply(y);
+            }
+
+#line hidden
+            return QVoid.Instance;
+        }
+
+        ;
+        public override Func<(Int64,Qubit,Qubit), QVoid> __AdjointBody__ => (__in__) =>
+        {
+            var (fType,x,y) = __in__;
+#line 8 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+            if ((fType == 0L))
+            {
+            }
+            else if ((fType == 1L))
+            {
+#line 8 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                Microsoft__Quantum__Intrinsic__X.Adjoint.Apply(y);
+            }
+            else if ((fType == 2L))
+            {
+#line 8 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                Microsoft__Quantum__Intrinsic__CNOT.Adjoint.Apply((x, y));
+            }
+            else if ((fType == 3L))
+            {
+#line 8 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                Microsoft__Quantum__Intrinsic__X.Adjoint.Apply(y);
+#line 8 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                Microsoft__Quantum__Intrinsic__CNOT.Adjoint.Apply((x, y));
+            }
+
+#line hidden
+            return QVoid.Instance;
+        }
+
+        ;
+        public override Func<(IQArray<Qubit>,(Int64,Qubit,Qubit)), QVoid> __ControlledBody__ => (__in__) =>
+        {
+            var (__controlQubits__,(fType,x,y)) = __in__;
+#line 8 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+            if ((fType == 0L))
+            {
+            }
+            else if ((fType == 1L))
+            {
+#line 8 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                Microsoft__Quantum__Intrinsic__X.Controlled.Apply((__controlQubits__, y));
+            }
+            else if ((fType == 2L))
+            {
+#line 8 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                Microsoft__Quantum__Intrinsic__CNOT.Controlled.Apply((__controlQubits__, (x, y)));
+            }
+            else if ((fType == 3L))
+            {
+#line 8 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                Microsoft__Quantum__Intrinsic__CNOT.Controlled.Apply((__controlQubits__, (x, y)));
+#line 8 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                Microsoft__Quantum__Intrinsic__X.Controlled.Apply((__controlQubits__, y));
+            }
+
+#line hidden
+            return QVoid.Instance;
+        }
+
+        ;
+        public override Func<(IQArray<Qubit>,(Int64,Qubit,Qubit)), QVoid> __ControlledAdjointBody__ => (__in__) =>
+        {
+            var (__controlQubits__,(fType,x,y)) = __in__;
+#line 8 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+            if ((fType == 0L))
+            {
+            }
+            else if ((fType == 1L))
+            {
+#line 8 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                Microsoft__Quantum__Intrinsic__X.Adjoint.Controlled.Apply((__controlQubits__, y));
+            }
+            else if ((fType == 2L))
+            {
+#line 8 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                Microsoft__Quantum__Intrinsic__CNOT.Adjoint.Controlled.Apply((__controlQubits__, (x, y)));
+            }
+            else if ((fType == 3L))
+            {
+#line 8 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                Microsoft__Quantum__Intrinsic__X.Adjoint.Controlled.Apply((__controlQubits__, y));
+#line 8 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                Microsoft__Quantum__Intrinsic__CNOT.Adjoint.Controlled.Apply((__controlQubits__, (x, y)));
+            }
+
+#line hidden
+            return QVoid.Instance;
+        }
+
+        ;
+        public override void __Init__()
+        {
+            this.Microsoft__Quantum__Intrinsic__X = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.X));
+            this.Microsoft__Quantum__Intrinsic__CNOT = this.__Factory__.Get<IUnitary<(Qubit,Qubit)>>(typeof(global::Microsoft.Quantum.Intrinsic.CNOT));
+        }
+
+        public override IApplyData __DataIn__((Int64,Qubit,Qubit) data) => new In(data);
+        public override IApplyData __DataOut__(QVoid data) => data;
+        public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__, Int64 fType, Qubit x, Qubit y)
+        {
+            return __m__.Run<DeutschOracle, (Int64,Qubit,Qubit), QVoid>((fType, x, y));
+        }
+    }
+
+    [SourceLocation("C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs", OperationFunctor.Body, 28, -1)]
+    public partial class RunDeutschAlgorithm : Operation<QVoid, QVoid>, ICallable
+    {
+        public RunDeutschAlgorithm(IOperationFactory m) : base(m)
+        {
+        }
+
+        String ICallable.Name => "RunDeutschAlgorithm";
+        String ICallable.FullName => "Deutsch_Algorithm.RunDeutschAlgorithm";
+        public static EntryPointInfo<QVoid, QVoid> Info => new EntryPointInfo<QVoid, QVoid>(typeof(RunDeutschAlgorithm));
         protected Allocate Allocate__
         {
             get;
@@ -42,7 +220,19 @@ namespace quantum
             set;
         }
 
+        protected IUnitary<Qubit> Microsoft__Quantum__Intrinsic__X
+        {
+            get;
+            set;
+        }
+
         protected IUnitary<Qubit> Microsoft__Quantum__Intrinsic__H
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<(Int64,Qubit,Qubit)> DeutschOracle__
         {
             get;
             set;
@@ -54,30 +244,83 @@ namespace quantum
             set;
         }
 
+        protected ICallable<String, QVoid> Message__
+        {
+            get;
+            set;
+        }
+
         protected ICallable<Qubit, QVoid> Reset__
         {
             get;
             set;
         }
 
-        public override Func<QVoid, Result> __Body__ => (__in__) =>
+        public override Func<QVoid, QVoid> __Body__ => (__in__) =>
         {
 #line hidden
             {
-#line 10 "C:\\Users\\kavir\\quantum\\Program.qs"
-                var q = Allocate__.Apply();
+#line 29 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                var x = Allocate__.Apply();
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 13 "C:\\Users\\kavir\\quantum\\Program.qs"
-                    Microsoft__Quantum__Intrinsic__H.Apply(q);
-#line 16 "C:\\Users\\kavir\\quantum\\Program.qs"
-                    var result = Microsoft__Quantum__Intrinsic__M.Apply(q);
-#line 19 "C:\\Users\\kavir\\quantum\\Program.qs"
-                    Reset__.Apply(q);
-#line 22 "C:\\Users\\kavir\\quantum\\Program.qs"
-                    return result;
+#line hidden
+                    {
+#line 30 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                        var y = Allocate__.Apply();
+#line hidden
+                        bool __arg2__ = true;
+                        try
+                        {
+#line 32 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                            Microsoft__Quantum__Intrinsic__X.Apply(y);
+#line 33 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                            Microsoft__Quantum__Intrinsic__H.Apply(x);
+#line 34 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                            Microsoft__Quantum__Intrinsic__H.Apply(y);
+#line 37 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                            var fType = 3L;
+#line 38 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                            DeutschOracle__.Apply((fType, x, y));
+#line 41 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                            Microsoft__Quantum__Intrinsic__H.Apply(x);
+#line 44 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                            var result = Microsoft__Quantum__Intrinsic__M.Apply(x);
+#line 45 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                            if ((result == Result.Zero))
+                            {
+#line 46 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                                Message__.Apply("Fonksiyon SABİTTİR.");
+                            }
+                            else
+                            {
+#line 49 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                                Message__.Apply("Fonksiyon DENGELİDİR.");
+                            }
+
+#line 53 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                            Reset__.Apply(x);
+#line 54 "C:\\Users\\kavir\\quantum\\Deutsch_Algorithm\\Program.qs"
+                            Reset__.Apply(y);
+                        }
+#line hidden
+                        catch
+                        {
+                            __arg2__ = false;
+                            throw;
+                        }
+#line hidden
+                        finally
+                        {
+                            if (__arg2__)
+                            {
+#line hidden
+                                Release__.Apply(y);
+                            }
+                        }
+                    }
                 }
 #line hidden
                 catch
@@ -91,68 +334,9 @@ namespace quantum
                     if (__arg1__)
                     {
 #line hidden
-                        Release__.Apply(q);
+                        Release__.Apply(x);
                     }
                 }
-            }
-        }
-
-        ;
-        public override void __Init__()
-        {
-            this.Allocate__ = this.__Factory__.Get<Allocate>(typeof(global::Microsoft.Quantum.Intrinsic.Allocate));
-            this.Release__ = this.__Factory__.Get<Release>(typeof(global::Microsoft.Quantum.Intrinsic.Release));
-            this.Microsoft__Quantum__Intrinsic__H = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.H));
-            this.Microsoft__Quantum__Intrinsic__M = this.__Factory__.Get<ICallable<Qubit, Result>>(typeof(global::Microsoft.Quantum.Intrinsic.M));
-            this.Reset__ = this.__Factory__.Get<ICallable<Qubit, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.Reset));
-        }
-
-        public override IApplyData __DataIn__(QVoid data) => data;
-        public override IApplyData __DataOut__(Result data) => new QTuple<Result>(data);
-        public static System.Threading.Tasks.Task<Result> Run(IOperationFactory __m__)
-        {
-            return __m__.Run<GenerateRandomBit, QVoid, Result>(QVoid.Instance);
-        }
-    }
-
-    [SourceLocation("C:\\Users\\kavir\\quantum\\Program.qs", OperationFunctor.Body, 27, -1)]
-    public partial class HelloQ : Operation<QVoid, QVoid>, ICallable
-    {
-        public HelloQ(IOperationFactory m) : base(m)
-        {
-        }
-
-        String ICallable.Name => "HelloQ";
-        String ICallable.FullName => "quantum.HelloQ";
-        public static EntryPointInfo<QVoid, QVoid> Info => new EntryPointInfo<QVoid, QVoid>(typeof(HelloQ));
-        protected ICallable<String, QVoid> Message__
-        {
-            get;
-            set;
-        }
-
-        protected ICallable<QVoid, Result> GenerateRandomBit__
-        {
-            get;
-            set;
-        }
-
-        public override Func<QVoid, QVoid> __Body__ => (__in__) =>
-        {
-#line 28 "C:\\Users\\kavir\\quantum\\Program.qs"
-            Message__.Apply("Hello quantum world!");
-#line 30 "C:\\Users\\kavir\\quantum\\Program.qs"
-            var randomBit = GenerateRandomBit__.Apply(QVoid.Instance);
-#line 31 "C:\\Users\\kavir\\quantum\\Program.qs"
-            if ((randomBit == Result.Zero))
-            {
-#line 32 "C:\\Users\\kavir\\quantum\\Program.qs"
-                Message__.Apply("Generated Random Bit: 0");
-            }
-            else
-            {
-#line 35 "C:\\Users\\kavir\\quantum\\Program.qs"
-                Message__.Apply("Generated Random Bit: 1");
             }
 
 #line hidden
@@ -162,15 +346,21 @@ namespace quantum
         ;
         public override void __Init__()
         {
+            this.Allocate__ = this.__Factory__.Get<Allocate>(typeof(global::Microsoft.Quantum.Intrinsic.Allocate));
+            this.Release__ = this.__Factory__.Get<Release>(typeof(global::Microsoft.Quantum.Intrinsic.Release));
+            this.Microsoft__Quantum__Intrinsic__X = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.X));
+            this.Microsoft__Quantum__Intrinsic__H = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.H));
+            this.DeutschOracle__ = this.__Factory__.Get<IUnitary<(Int64,Qubit,Qubit)>>(typeof(DeutschOracle));
+            this.Microsoft__Quantum__Intrinsic__M = this.__Factory__.Get<ICallable<Qubit, Result>>(typeof(global::Microsoft.Quantum.Intrinsic.M));
             this.Message__ = this.__Factory__.Get<ICallable<String, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.Message));
-            this.GenerateRandomBit__ = this.__Factory__.Get<ICallable<QVoid, Result>>(typeof(GenerateRandomBit));
+            this.Reset__ = this.__Factory__.Get<ICallable<Qubit, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.Reset));
         }
 
         public override IApplyData __DataIn__(QVoid data) => data;
         public override IApplyData __DataOut__(QVoid data) => data;
         public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__)
         {
-            return __m__.Run<HelloQ, QVoid, QVoid>(QVoid.Instance);
+            return __m__.Run<RunDeutschAlgorithm, QVoid, QVoid>(QVoid.Instance);
         }
     }
 }

@@ -171,3 +171,4 @@ C:\Users\kavir\quantum\obj\Debug\net6.0\refint\quantum.dll
 C:\Users\kavir\quantum\obj\Debug\net6.0\quantum.pdb
 C:\Users\kavir\quantum\obj\Debug\net6.0\quantum.genruntimeconfig.cache
 C:\Users\kavir\quantum\obj\Debug\net6.0\ref\quantum.dll
+C:\Users\kavir\quantum\obj\Debug\net6.0\quantum.sourcelink.json
